@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Nacional de Aprendizaje (INA)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .images img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Instituto Nacional de Aprendizaje (INA)</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Acerca del INA</h2>
+            <p>El Instituto Nacional de Aprendizaje (INA) es una entidad autónoma creada por la ley Nº 3506 del 21 de mayo de 1965, reformada por su Ley Orgánica Nº 6868 del 6 de mayo de 1983. Su principal tarea es promover y desarrollar la capacitación y formación profesional de las personas en todos los sectores de la producción, para impulsar el desarrollo económico y contribuir al mejoramiento de las condiciones de vida y de trabajo de la población.</p>
+        </section>
+        <section>
+            <h2>Misión y Visión</h2>
+            <p><strong>Misión:</strong> El INA forma, capacita y certifica a personas físicas y jurídicas, para contribuir al crecimiento personal, movilidad social, productividad y competitividad; que permita al país adaptarse a los cambios que el entorno exige.</p>
+            <p><strong>Visión:</strong> Ser una institución educativa que responda oportunamente, de forma inclusiva, con servicios innovadores, flexibles y pertinentes, que contribuyan con el desarrollo del talento humano requerido, a la movilidad social y al crecimiento económico de la nación.</p>
+        </section>
+        <section>
+            <h2>Servicios</h2>
+            <ul>
+                <li>Capacitación y formación profesional.</li>
+                <li>Certificación y acreditación para el trabajo productivo.</li>
+                <li>Programas de apoyo a PYMES y emprendimientos.</li>
+            </ul>
+        </section>
+        <section class="images">
+            <h2>Imágenes</h2>
+            <img src="https://www.ina.ac.cr/SiteAssets/Images/INA.jpg" alt="Instituto Nacional de Aprendizaje">
+            <img src="https://www.ina.ac.cr/SiteAssets/Images/Capacitacion.jpg" alt="Capacitación en el INA">
+        </section>
+        <section>
+            <h2>Contacto</h2>
+            <p>Para más información, visita el <a href="https://www.ina.ac.cr/" target="_blank">sitio oficial del INA</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Gracias por su visita</p>
+    </footer>
+</body>
+</html>
